@@ -1,1 +1,8 @@
 /*Main Stylesheet for index.html*/
+
+/* By Element Name */
+body {
+  font-family: helvetica, sans-serif;
+  color: black;
+  font-size: 16px;
+}
