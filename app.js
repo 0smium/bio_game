@@ -10,9 +10,8 @@ function myGame() {
   // Depending on True or False, provide feedback.
 
   var userAnswerOne = prompt('Was I born in Washington (y/n)?');
-  var myAnswerOne = 'n';
 
-  if (userAnswerOne === myAnswerOne) {
+  if (userAnswerOne.toLowerCase() === 'n' || userAnswerOne.toLowerCase() === 'no') {
     // Do something
      alert('Correct, I was born in Massachusetts.');
   } else {
@@ -21,9 +20,8 @@ function myGame() {
   }
 
   var userAnswerTwo = prompt('Did I study computer science in college (y/n)?');
-  var myAnswerTwo = 'n';
 
-  if (userAnswerTwo === myAnswerTwo) {
+  if (userAnswerTwo.toLowerCase() === 'n' || userAnswerTwo.toLowerCase() === 'no') {
     // Do something
      alert('Correct, I studied Biology.');
   } else {
@@ -32,9 +30,8 @@ function myGame() {
   }
 
   var userAnswerThree = prompt('Have I lived in California (y/n)?');
-  var myAnswerThree = 'y';
 
-  if (userAnswerThree === myAnswerThree) {
+  if (userAnswerThree.toLowerCase() === 'y' || userAnswerThree.toLowerCase() === 'yes') {
     // Do something
      alert('Correct, I lived in California from 2007 through 2015.');
   } else {
@@ -43,9 +40,8 @@ function myGame() {
   }
 
   var userAnswerFour = prompt('Do I have children (y/n)?');
-  var myAnswerFour = 'y';
 
-  if (userAnswerFour === myAnswerFour) {
+  if (userAnswerFour.toLowerCase() === 'y' || userAnswerFour.toLowerCase() === 'yes') {
     // Do something
      alert('Correct, I have two children, Liam (5) and Darcie (2).');
   } else {
