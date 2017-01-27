@@ -49,6 +49,7 @@ main {
   float:left;
   margin-right:10px;
   min-height: 700px;
+  margin-bottom: 50px;
 }
 #right {
   padding: 0 10px 10px 10px;
@@ -57,7 +58,7 @@ main {
   border-radius: 5px;
   width:230px;
   float: left;
-  min-height: 700px;
+  /*min-height: 700px;*/
 }
 
 #left ul {
@@ -66,4 +67,10 @@ main {
 
 #left ul li {
   display:block;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  padding:10px 20px 10px 20px;
+  margin-left:10px;
 }
